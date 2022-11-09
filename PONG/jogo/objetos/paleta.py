@@ -21,5 +21,5 @@ class Paleta:
         if teclas[self.subir] and self.posicao[1] > 0:
             self.posicao[1] -= 5
 
-        if teclas[self.descer] and self.posicao[1] < 250:
+        if teclas[self.descer] and self.posicao[1] < 400 - self.altura:
             self.posicao[1] += 5
